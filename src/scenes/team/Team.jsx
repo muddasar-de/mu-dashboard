@@ -36,7 +36,7 @@ const Team = () => {
   return (
     <Box m="0 40px 0 40px">
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="Users" subtitle="Managing the XyCAD Users" />
+        <Header title="Team" subtitle="Managing the XyCAD Team" />
         <Button
           sx={{
             backgroundColor: colors.blueAccent[700],

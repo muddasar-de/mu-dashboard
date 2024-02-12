@@ -14,6 +14,7 @@ import Geography from "./scenes/geography/Geography";
 import { ProSidebarProvider } from "react-pro-sidebar";
 import Team from "./scenes/team/Team";
 import Users from "./scenes/users/Users";
+import PdfGenerator from "./scenes/pdfGenerator/PdfGenerator";
 function App() {
   const [theme, colorMode] = useMode();
   return (
@@ -30,13 +31,14 @@ function App() {
                 <Route path="/team" element={<Team />} />
                 <Route path="/users" element={<Users />} />
                 <Route path="/calendar" element={<Calendar />} />
-                <Route path="/invoices" element={<Calendar />} />
+                {/* <Route path="/invoices" element={<Calendar />} /> */}
                 <Route path="/form" element={<Dashboard />} />
                 <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/line" element={<Line />} />
                 <Route path="/geography" element={<Geography />} />
-                <Route path="/calender " element={<Dashboard />} />
+                {/* <Route path="/calender " element={<Dashboard />} /> */}
+                <Route path="/pdfgenerator " element={<PdfGenerator />} />
               </Routes>
             </main>
           </div>

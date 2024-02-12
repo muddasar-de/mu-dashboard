@@ -159,13 +159,13 @@ const SideNav = () => {
               selected={selected}
               setSelected={setSelected}
             />{" "}
-            <Item
+            {/* <Item
               title="Server Information"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
-            />
+            /> */}
             <Item
               title="Events"
               to="/calendar"
@@ -187,7 +187,7 @@ const SideNav = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
+            {/* <Item
               title="Profile Form"
               to="/form"
               icon={<PersonAddAltOutlinedIcon />}
@@ -200,14 +200,14 @@ const SideNav = () => {
               icon={<CalendarMonthOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
-            />
+            /> */}
             {/* <Item
-                title="FAQ Page"
-                to="/faq"
-                icon={<HelpOutlineOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
-              /> */}
+              title="Pdf"
+              to="/pdfgenerator"
+              icon={<CalendarMonthOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            /> */}
             <Typography
               variant="h6"
               color={colors.grey[300]}
